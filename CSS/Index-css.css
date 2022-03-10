@@ -1,15 +1,16 @@
 /* Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-/*font-family: 'Inconsolata', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+/*font-family: 'Red Hat Display', sans-serif;*/
 
 
 
 /*body Section */
 body{
  max-width: 90%;
- background-color: rgb(239, 224, 187);
- font-family: 'Inconsolata', monospace;
+ margin: 0 auto;
+ background-color: rgb(204, 204, 204);
+ font-family: 'Red Hat Display', sans-serif;
  color: rgb(108, 122, 137) ;
  justify-self: center;
  margin: 0;
@@ -31,29 +32,10 @@ header{
     color: whitesmoke;
 }
 
-header p {
-    margin-top: 1em;
-}
 
-/*primary-nav styling */
 
-header li{
-    display: inline;
-    text-decoration: none;
-    padding: 1em;
-}
+/*nav styling */
 
-li a{
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    color: rgb(5, 90, 5)
-}
 
 
 /*Main Section*/
-main{
-    margin:4em 0 0 1em; 
-}
