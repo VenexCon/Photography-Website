@@ -30,6 +30,7 @@ header{
     padding-right: 1.5em;
     border-bottom-right-radius: 0.25em;
     color: whitesmoke;
+    margin-top: 0; 
 }
 
 header p {
