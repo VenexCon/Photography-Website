@@ -79,6 +79,59 @@ a:hover{
       margin: 4em; 
   }
 
+/*Instagram embedded posts section */
+
+.gridContainer {
+    margin: auto; 
+    display: grid; 
+    max-width: 100%; 
+    grid-template-rows: 1fr;
+    grid-template-areas: "instagram1 instagram2 instagram3";
+    column-gap:20px; 
+    justify-items: center; 
+    margin: 1.5em 0em 1.5em 0; 
+      }
+
+.container{
+    justify-text: center; 
+    width: 20em;
+    height:40em;
+    border-style: solid;
+    border-color: black;
+    border: 1em;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+      
+#instagram1{
+    background-color: white;
+    grid-area: instagram1;
+}
+#instagram2{
+    background-color: white;
+    grid-area: instagram2 ;}
+#instagram3{
+    background-color:white;
+    grid-area: instagram3}
+
+hr{
+    color-scheme: black;
+}
+
+/*instagram embedded posts responsive */
+
+@media (max-width:640px){
+    .gridContainer{
+        grid-template-areas: 
+                "instagram1"
+                "instagram2"
+                "instagram3";
+    row-gap: 20px; ;
+    border-color: black;
+    border-width: 1em;
+    }
+}
+
 
   /*footer Styling */ 
   i{
