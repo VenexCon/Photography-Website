@@ -95,7 +95,7 @@ a:hover{
 .container{
     justify-text: center; 
     width: 20em;
-    height:40em;
+    height:auto;
     border-style: solid;
     border-color: black;
     border: 1em;
