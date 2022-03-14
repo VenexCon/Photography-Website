@@ -95,7 +95,6 @@ a:hover{
 .container{
     justify-text: center; 
     width: 20em;
-    height:auto;
     border-style: solid;
     border-color: black;
     border: 1em;
@@ -104,15 +103,19 @@ a:hover{
 }
       
 #instagram1{
-    background-color: white;
     grid-area: instagram1;
+    height:auto;
 }
+
 #instagram2{
-    background-color: white;
-    grid-area: instagram2 ;}
+    grid-area: instagram2;
+    height:auto;
+}
+
 #instagram3{
-    background-color:white;
-    grid-area: instagram3}
+    height:auto;
+    grid-area: instagram3;
+}
 
 hr{
     color-scheme: black;
