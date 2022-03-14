@@ -43,7 +43,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
 }
- li{
+ ul>li{
     text-decoration: none;
     list-style: none;
     text-align: center;
@@ -76,8 +76,11 @@ a:hover{
   }
 
   main p{
-      margin: 4em; 
+      margin: 5em;
+      padding:1em;
+      color: black; 
   }
+
 
 /*Instagram embedded posts section */
 
@@ -138,4 +141,8 @@ hr{
       font-size: 1.5em;
   }
 
+  footer>p {
+      margin-top: 1em;
+      color: black;
+  }
   
