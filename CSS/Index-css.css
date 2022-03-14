@@ -61,6 +61,13 @@ a:hover{
 }
 
 
+@media (max-width: 600px){
+    *{
+        font-size: 0.5em;
+    }
+}
+
+
 /*Main Section*/
 #feature{
     height: 10em;
@@ -123,7 +130,7 @@ hr{
 
 /*instagram embedded posts responsive */
 
-@media (max-width:640px){
+@media (max-width:600px){
     .gridContainer{
         grid-template-areas: 
                 "instagram1"
