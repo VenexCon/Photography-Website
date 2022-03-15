@@ -60,13 +60,13 @@ a:hover{
     color: white;
 }
 
-
+/*  Commented out @media
 @media (max-width: 600px){
     *{
         font-size: 0.5em;
     }
 }
-
+*/
 
 /*Main Section*/
 #feature{
