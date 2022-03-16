@@ -105,7 +105,7 @@ a:hover{
 .container{
     justify-text: center; 
     width: 20em;
-    height:40em;
+    max-height:40em;
     border-style: solid;
     border-color: black;
     border: 1em;
