@@ -7,3 +7,5 @@ To do:
 2. implement a contact form for enquiries and find out how to link with JS
 3. implement 2 scripts of JS. 
 4. implement a gallery section, that can be sorted by colours. 
+5. Add an FAQ section 
+6. add a collpasable nav-bar that uses a hamburger menu to unfold. 
