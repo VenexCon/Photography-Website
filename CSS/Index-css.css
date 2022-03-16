@@ -60,13 +60,13 @@ a:hover{
     color: white;
 }
 
-/*  Commented out @media
+/* Responsive Nav */
 @media (max-width: 600px){
-    *{
-        font-size: 0.5em;
+    ul>li{
+    font-size: 0.75em; 
     }
 }
-*/
+
 
 /*Main Section*/
 #feature{
