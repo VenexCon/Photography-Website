@@ -153,3 +153,62 @@ hr{
       color: black;
   }
   
+
+  /* productsSection begins. Embedded Websites using IFrame tag */ 
+
+  .productsContainer{
+    margin: auto; 
+    display: grid; 
+    max-width: 100%; 
+    grid-template-rows: 1fr;
+    grid-template-areas: "product1 product2 product3";
+    column-gap:20px; 
+    justify-items: center; 
+    margin: 1.5em 0em 1.5em 0; 
+      }
+
+ .products{
+    width: 30em;
+    max-height:30em;
+    border-style: solid;
+    border-color: black;
+    border: 1em;
+    overflow: hidden;
+    border-radius: 0.5em;
+    position: relative;
+    overflow: hidden;
+}
+
+.canonImg{
+grid-area: product1;
+}
+
+
+
+.filmImage{
+grid-area: products2;
+}
+
+.backpackImg{
+grid-area: products3;
+}
+
+.products:hover{
+    opacity: 0.6; ;
+  
+}
+
+
+  
+
+/* CssGrid Responsive products */ 
+@media (max-width:600px){
+    .productsContainer{
+        grid-template-areas: 
+                "products1"
+                "products2"
+                "products3";
+    row-gap: 20px; ;
+    border-color: black;
+    border-width: 1em;
+    }
