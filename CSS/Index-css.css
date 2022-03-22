@@ -183,8 +183,6 @@ hr{
 grid-area: product1;
 }
 
-
-
 .filmImage{
 grid-area: products2;
 }
@@ -195,14 +193,13 @@ grid-area: products3;
 
 .products:hover{
     opacity: 0.6; ;
-  
 }
 
 
   
 
 /* CssGrid Responsive products */ 
-@media (max-width:600px){
+@media (max-width:740px){
     .productsContainer{
         grid-template-areas: 
                 "products1"
