@@ -61,7 +61,7 @@ a:hover{
 }
 
 /* Responsive Nav */
-@media (max-width: 600px){
+@media (max-width: 740px){
     ul>li{
     font-size: 0.75em; 
     }
