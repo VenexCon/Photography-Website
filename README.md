@@ -16,5 +16,11 @@ To do:
 The website is currently hosted on Netlify after searching the best host. 
 
 The intro section which includes a movie quote and subsequent pictures taken using analogue photgraphic cameras. 
-![image](https://user-images.githubusercontent.com/96823004/159485319-98f7d611-7ddc-4b76-bd3d-829ce7411de7.png)
+
+
+The next section scrolls to three embeddedi nstagram posts, that are responsive to mobile screens. These are set using a CSS:gGrid layout with responsive media quiries. 
+
+The last section is the products section that contains three images, wrapped in <a> tags with a target of _blank, to open a new window to the related equipment. 
+  
+ 
 
